@@ -3,11 +3,11 @@
 JavaScript/TypeScript SDK for [APIA](https://github.com/Komsomol39/apia-standard) — the open standard for AI-native API manifests.
 
 ```bash
-npm install apia
+npm install @apia/sdk
 # or
-pnpm add apia
+pnpm add @apia/sdk
 # or
-yarn add apia
+yarn add @apia/sdk
 ```
 
 Works in Node.js 18+ and modern browsers (uses native `fetch`).
@@ -15,7 +15,7 @@ Works in Node.js 18+ and modern browsers (uses native `fetch`).
 ## Quickstart
 
 ```ts
-import { Registry } from "apia";
+import { Registry } from "@apia/sdk";
 
 const registry = new Registry();
 
@@ -40,7 +40,7 @@ const prompt = registry.buildSystemPrompt(apis);
 ### `Registry`
 
 ```ts
-import { Registry } from "apia";
+import { Registry } from "@apia/sdk";
 const r = new Registry();
 
 // Search by intent (natural language)
@@ -90,7 +90,7 @@ m.toSystemPrompt()      // formatted string for LLM system prompt
 ### Anthropic Claude (via API)
 
 ```ts
-import { Registry } from "apia";
+import { Registry } from "@apia/sdk";
 import Anthropic from "@anthropic-ai/sdk";
 
 const registry = new Registry();
@@ -110,7 +110,7 @@ console.log(response.content[0].text);
 ### OpenAI function calling
 
 ```ts
-import { Registry } from "apia";
+import { Registry } from "@apia/sdk";
 import OpenAI from "openai";
 
 const registry = new Registry();
@@ -140,7 +140,7 @@ for (const api of russianFreeApis) {
 Full TypeScript support with strict types:
 
 ```ts
-import type { Manifest, Capability, Category, OpenAITool } from "apia";
+import type { Manifest, Capability, Category, OpenAITool } from "@apia/sdk";
 
 const category: Category = "finance"; // type-checked against 26 valid values
 ```
