@@ -1,5 +1,5 @@
-import type { RegistryData, RegistryEntry, Category } from "./types.js";
-import { Manifest } from "./manifest.js";
+import type { RegistryData, RegistryEntry, Category } from "./types";
+import { Manifest } from "./manifest";
 
 const REGISTRY_URL =
   "https://raw.githubusercontent.com/Komsomol39/apia-standard/main/registry.json";
