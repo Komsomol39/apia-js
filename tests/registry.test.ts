@@ -1,4 +1,4 @@
-import { Registry, Manifest, ManifestNotFoundError, ApiaError } from "../src/index.js";
+import { Registry, Manifest, ManifestNotFoundError, ApiaError } from "../src/index";
 
 // ── Fixtures ─────────────────────────────────────────────────────────────────
 
