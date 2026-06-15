@@ -1,4 +1,4 @@
-import type { ManifestData, Capability, OpenAITool, Auth, Service } from "./types.js";
+import type { ManifestData, Capability, OpenAITool, Auth, Service } from "./types";
 
 /**
  * Represents a loaded APIA manifest with helper methods.
