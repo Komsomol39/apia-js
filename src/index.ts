@@ -5,7 +5,7 @@
  *
  * @example
  * ```ts
- * import { Registry } from "@apia/sdk";
+ * import { Registry } from "apia-sdk";
  *
  * const registry = new Registry();
  * const apis = await registry.find("send telegram message");
