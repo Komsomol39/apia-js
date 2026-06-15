@@ -13,9 +13,9 @@
  * ```
  */
 
-export { Registry, ApiaError, ManifestNotFoundError } from "./registry.js";
-export type { ListOptions, FindOptions } from "./registry.js";
-export { Manifest } from "./manifest.js";
+export { Registry, ApiaError, ManifestNotFoundError } from "./registry";
+export type { ListOptions, FindOptions } from "./registry";
+export { Manifest } from "./manifest";
 export type {
   ManifestData,
   Service,
@@ -27,4 +27,4 @@ export type {
   RegistryData,
   OpenAITool,
   Category,
-} from "./types.js";
+} from "./types";
