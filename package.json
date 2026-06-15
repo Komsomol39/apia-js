@@ -1,5 +1,5 @@
 {
-  "name": "@apia/sdk",
+  "name": "apia-sdk",
   "version": "0.1.0",
   "description": "JavaScript/TypeScript SDK for APIA \u2014 AI-native API manifests standard",
   "main": "dist/index.js",
